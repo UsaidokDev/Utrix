@@ -1,0 +1,33 @@
+.navbar-brand {
+  color: #224f34 !important;
+  font-family: Elephant;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav-item{
+    text-align: center !important;
+}
+.navbar-bg{
+    color: #224f34;
+}
+#bag{
+    margin-left: 40px;
+}
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid ;
+    color:#224F34; 
+    padding: 5px 10px;
+}
+li{
+    font-family: Poppins;
+}
+/* Custom CSS for navbar items hover effect */
+.navbar-nav li.nav-item:hover a.nav-link {
+    color: #ffffff; /* Change the text color to white on hover */
+    background-color: #224f34; /* Change the background color on hover */
+    transition: 0.3s; /* Add a smooth transition effect */
+}
+
