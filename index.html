@@ -21,31 +21,32 @@
     <title>Utrix</title>
   </head>
   <body>
-
     <!--Navbar-->
-    <section>
-    <nav
-      class="navbar navbar-expand-lg navbar-light"
-      style="background-color: #c2efd4"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Utrix</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="mx-auto">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+    <section id="navbar">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #c2efd4"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Utrix</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="mx-auto">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">SHOP</a>
@@ -56,23 +57,41 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li id="bag">
-                </li>
+                <li id="bag"></li>
                 <li class="nav-item ml-4 mt-0">
-                  <i class="bi bi-bag" style="font-size: 24px;"></i>
+                  <i class="bi bi-bag" style="font-size: 24px"></i>
                 </li>
                 <li class="text-center ml-4 mt-2">
                   <a href="" class="btn btn-transparent">Login</a>
                 </li>
               </ul>
+            </div>
           </div>
         </div>
+      </nav>
+    </section>
+    <!--End navbar-->
+    <!--Home -Page-->
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+             <h1 class="home-title">Discover and <br>Find Your Own <br>Fashion!</h1>
+             <p class="home-paragraph">Explore our curated collection of stylish<br>
+                 clothing and accessories tailored to your<br>
+                 unique taste.</p>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+           <div class="border">
+            <img src="Image/Home.png" alt="image-loading" class="home-image">
+           </div>
+         </div>
+         
+        </div>
       </div>
-    </nav>
-</section>
-<!--End navbar-->
-
-
+    </section>
+    <!--End Home-->
+    
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

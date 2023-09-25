@@ -6,28 +6,58 @@
   font-weight: 400;
   line-height: normal;
 }
-.nav-item{
-    text-align: center !important;
+.nav-item {
+  text-align: center !important;
 }
-.navbar-bg{
-    color: #224f34;
+.navbar-bg {
+  color: #224f34;
 }
-#bag{
-    margin-left: 40px;
+#bag {
+  margin-left: 40px;
 }
 .btn-transparent {
-    background-color: transparent;
-    border: 1px solid ;
-    color:#224F34; 
-    padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid;
+  color: #224f34;
+  padding: 5px 10px;
 }
-li{
-    font-family: Poppins;
+li {
+  font-family: Poppins;
 }
 /* Custom CSS for navbar items hover effect */
 .navbar-nav li.nav-item:hover a.nav-link {
-    color: #ffffff; /* Change the text color to white on hover */
-    background-color: #224f34; /* Change the background color on hover */
-    transition: 0.3s; /* Add a smooth transition effect */
+  color: #ffffff; /* Change the text color to white on hover */
+  background-color: #224f34; /* Change the background color on hover */
+  transition: 0.3s; /* Add a smooth transition effect */
 }
-
+#home {
+  height: auto;
+  width: 100%;
+  background-color: #c2efd4;
+}
+.home-title{
+    color: #224F34;
+    font-family: Rufina;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.home-paragraph {
+  color: #224f34;
+  font-family: Rufina;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.border{
+    height: 520px;
+    width: 427px;
+    flex-shrink: 0;
+   border-radius: 117px 44px 107px 57px;
+   background-color: 	#3CB371;
+}
+.home-image{
+    height: 519px;
+}
