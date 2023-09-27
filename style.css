@@ -115,13 +115,6 @@ li {
   bottom: -10px;
   transition: 0.5s;
 }
-.block {
-  height: 330px;
-  width: 330px;
-  background-color: lightblue;
-  border-radius: 20px;
-}
-
 /* Padding for small devices (sm) */
 @media (max-width: 767px) {
   .custom-padding {
@@ -137,4 +130,9 @@ li {
 }
 .shop-image{
   height: 320px;
+}
+@media (max-width: 767px) {
+  .sm-margin {
+    margin-top: 15px; /* Adjust the margin-top value as needed */
+  }
 }
