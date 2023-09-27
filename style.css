@@ -128,11 +128,80 @@ li {
     padding: 10px;
   }
 }
-.shop-image{
+.shop-image {
   height: 320px;
 }
 @media (max-width: 767px) {
   .sm-margin {
     margin-top: 15px; /* Adjust the margin-top value as needed */
   }
+}
+.green-box {
+  height: 300px;
+  width: 700px;
+  background-color: lightblue;
+  margin: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+.offres-text {
+  color: #224f34;
+  font-family: Roboto Slab;
+  font-size: 40px;
+}
+/* Base styles for both columns */
+.column {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Media query for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+    margin-bottom: 10px; /* Add some spacing between columns on small screens */
+  }
+}
+
+/* Media query for screens 768px and larger (e.g., tablets and desktops) */
+@media (min-width: 769px) {
+  .column {
+    width: 50%;
+    float: left; /* Float columns left to create a two-column layout */
+  }
+}
+
+.check {
+  display: flex;
+  flex-direction: row; /* Change to row to arrange columns horizontally */
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 70%;
+  background-color: lightblue;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.column {
+  height: 300px;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.offers {
+  max-width: 100%;
+  height: 108%;
+}
+
+.col-text {
+  color: #224f34;
+  font-size: 46px;
+  font-weight: 700;
+}
+.col-paragraph {
+  color: #224f34;
+  font-size: 18px;
+  font-style: normal;
 }
