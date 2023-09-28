@@ -205,3 +205,21 @@ li {
   font-size: 18px;
   font-style: normal;
 }
+.all-title{
+  font-size: 50px;
+  color: #224F34;
+  font-weight: 500;
+}
+.all-paragraph{
+  color: #224f34;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+  font-size: normal;
+}
+/* styles.css */
+.image-height {
+  height: 279px; /* You can adjust the height as desired */
+  border-radius: 20px 20px 20px 20px;
+  background-color: lightgray;
+}
